@@ -1,0 +1,122 @@
+[
+    {
+        "name": "Google",
+        "description": "Overlord",
+        "method": "GET",
+        "link": "https://www.google.com/search?q={searchquery}",
+        "icon": "Google",
+        "log": true,
+        "keywords": [
+            "google"
+        ]
+    },
+    {
+        "name": "Wikipedia",
+        "description": "Knowledge",
+        "method": "GET",
+        "link": "https://nl.wikipedia.org/wiki/Special:Search?search={searchquery}",
+        "icon": "Wikipedia",
+        "log": true,
+        "keywords": [
+            "wikipedia",
+            "wiki"
+        ]
+    },
+    {
+        "name": "Maps",
+        "description": "Directions",
+        "method": "GET",
+        "link": "https://www.google.be/maps/?q={searchquery}",
+        "icon": "Maps",
+        "log": true,
+        "keywords": [
+            "maps"
+        ]
+    },
+    {
+        "name": "Stack Overflow",
+        "description": "Coding library",
+        "method": "GET",
+        "link": "https://stackoverflow.com/search?q={searchquery}",
+        "icon": "Stack_Overflow",
+        "log": true,
+        "keywords": [
+            "stack overflow",
+            "so"
+        ]
+    },
+    {
+        "name": "Images",
+        "description": "Images",
+        "method": "GET",
+        "link": "https://www.google.com/search?q={searchquery}&tbm=isch",
+        "icon": "Images",
+        "log": true,
+        "keywords": [
+            "images",
+            "img"
+        ]
+    },
+    {
+        "name": "Bol.com",
+        "description": "Packetjes!!!",
+        "method": "GET",
+        "link": "https://www.bol.com/nl/nl/s/?searchtext={searchquery}",
+        "icon": "Bol",
+        "log": true,
+        "keywords": [
+            "bol.com",
+            "bol"
+        ]
+    },
+    {
+        "name": "Vertalen",
+        "description": "Vertalen",
+        "method": "GET",
+        "link": "https://translate.google.com/?hl=nl&sl=auto&tl=nl&text={searchquery}&op=translate",
+        "icon": "Vertalen",
+        "log": true,
+        "keywords": [
+            "vertalen",
+            "translate"
+        ]
+    },
+    {
+        "name": "Facebook",
+        "description": "Feestboek",
+        "method": "GET",
+        "link": "https://www.facebook.com/search/top/?q={searchquery}",
+        "icon": "Facebook",
+        "log": true,
+        "keywords": [
+            "facebook",
+            "fb"
+        ]
+    },
+    {
+        "name": "IMDb",
+        "description": "Internet Movie Database",
+        "method": "GET",
+        "link": "https://www.imdb.com/find?q={searchquery}",
+        "icon": "IMDb",
+        "log": true,
+        "keywords": [
+            "imdb",
+            "movie"
+        ]
+    },
+    {
+        "name": "Maps Route",
+        "description": "Route from one to another place",
+        "method": "GET",
+        "link": "https://www.google.com/maps/dir/{searchquery}/{searchquery}",
+        "icon": "Maps",
+        "log": true,
+        "keywords": [
+            "route",
+            "go"
+        ],
+        "split_query": true,
+        "nbr_of_query_args": 2
+    }
+]
